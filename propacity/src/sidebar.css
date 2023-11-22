@@ -1,0 +1,37 @@
+/* .sidebar{
+   
+    background-color: navy;
+    display: flex;
+width: 223px;
+height: 576px;
+padding: 10px 14px 10px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+
+} */
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+​
+.sidebar-list {
+    padding: 0;
+    list-style-type: none;
+}
+​
+.sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+}
+​
+.sidebar-list-item:hover {
+    background-color: rgba(166, 53, 53, 0.2);
+    cursor: pointer;
+}
