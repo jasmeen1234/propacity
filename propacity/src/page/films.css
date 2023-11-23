@@ -1,0 +1,54 @@
+
+.main-list{
+    /* height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px; */
+}
+.main-list1{
+   height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    overflow-x: hidden;
+    padding-top: 16px;  
+}
+.film-grid{
+    display: grid;
+
+   grid-template-columns: auto auto auto;
+    background-color: beige;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    gap: 10px;
+}
+.film-card{
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+}
+.movie-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:rgba(0, 0, 128, 0.927);
+    box-sizing: border-box;
+}
+img{
+border: 2px solid white;
+
+}
+.sidebar-list{
+   
+        margin-left: 160px; /* Same as the width of the sidenav */
+        padding: 0px 10px;
+     
+}

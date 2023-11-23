@@ -15,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: navy;
+  background-color: rgba(0, 0, 128, 0.927);
   color: #9e9ea4;
   font-family: 'Montserrat', sans-serif;
 }
