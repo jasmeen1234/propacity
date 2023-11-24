@@ -17,11 +17,10 @@ export default function ImgMediaCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+        Welcome to Star Wars Dashboard
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop culture phenomenon.
         </Typography>
       </CardContent>
       

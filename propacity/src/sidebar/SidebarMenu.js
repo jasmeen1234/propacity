@@ -4,11 +4,11 @@ import FolderIcon from '@mui/icons-material/Folder';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const SidebarMenu= () => {
   return (
-    <div style={{ display: "flex",color:"white", height: "100vh" }}>
-      <Sidebar style={{backgroundColor:"navyblue"}} className="app">
-        <Menu>
+    <div style={{ display: "flex",color:"white",backgroundColor:"darkblue", height: "100vh" }}>
+      <Sidebar className="app">
+        <Menu style={{backgroundColor:"darkblue"}}>
            
-          <MenuItem className="menu1">
+          <MenuItem style={{backgroundColor:"darkblue"}} className="menu1">
           <FolderIcon/>
           <Link to="/film" replace={true} style={{color:"white"}}> Films</Link> 
           <ArrowForwardIosIcon/>
@@ -31,7 +31,21 @@ const SidebarMenu= () => {
             <MenuItem> <FolderIcon/>
           <Link to="/film" replace={true}style={{color:"white"}}> Vehicles</Link> 
           <ArrowForwardIosIcon/> </MenuItem>
-            
+          <MenuItem>
+          </MenuItem>
+          <MenuItem>
+          </MenuItem>
+          <MenuItem>
+          </MenuItem>
+          <MenuItem>
+          </MenuItem>
+          <MenuItem>
+          </MenuItem>
+          <MenuItem>
+          </MenuItem>
+          <MenuItem>
+          </MenuItem> <MenuItem>
+          </MenuItem>
         </Menu>
       </Sidebar>
      
